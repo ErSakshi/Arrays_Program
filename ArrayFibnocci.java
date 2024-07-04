@@ -18,13 +18,14 @@ class ArrayFibnocci
 	  	int op=num1+num2;
 	  	//System.out.print(op+" ");
 	  	//System.out.println();
+	  	
 	  	num1=num2;
 	  	num2=op;
 	  	 
 	  	arr[i]=op;
        
        }
-       System.out.print(num1+num2);
+       
        System.out.println(Arrays.toString(arr));	
 	}
 }

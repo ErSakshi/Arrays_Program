@@ -1,4 +1,4 @@
-import java.util.Arrays;
+import      java.util.Arrays;
 class Merging2dDifferntArray
 {
 	public static void main(String[] args) 
@@ -10,7 +10,7 @@ class Merging2dDifferntArray
 
 	   int len=0;
 	   for(int i=0;i<a.length;i++)
-	   {
+	   {43
 	   	 len+=len+a.length;
 	   }
 	   

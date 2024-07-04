@@ -17,7 +17,9 @@ class ZigZagArrayMerging
 	    	 {
 	    	 	
 	    	 	c[j++]=a[i];
+	    	 	
 	    	 	//storing length directly from bigger length array
+	    	 	
 	    	 	c[j++]=b[i];
 	    	 }
 	    }
